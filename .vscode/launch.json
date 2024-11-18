@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Microsoft cloud sandbox",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "Standard_BC_UAT",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "server": "https://businesscentral.dynamics.com/",
+            "tenant": "cb357527-5ead-4c02-a2da-cb0987a4e988",
+            "schemaUpdateMode": "ForceSync"
+        }
+    ]
+}
